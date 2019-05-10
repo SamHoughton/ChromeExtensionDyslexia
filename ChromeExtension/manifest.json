@@ -1,0 +1,28 @@
+  {
+      "name": "Colour Selector",
+      "version": "1.0",
+      "description": "Colour Selection Extension",
+      "permissions": ["activeTab", "declarativeContent", "storage"],
+      "background": {
+          "scripts": ["background.js"],
+          "persistent": true
+      },
+      "page_action": {
+          "default_popup": "popup.html",
+          "default_icon": {
+              "16": "images/icons8-edit-16.png",
+              "32": "images/icons8-edit-32.png",
+              "48": "images/icons8-edit-48.png",
+              "128": "images/icons8-edit-128.png"
+          }
+      },
+      "icons": {
+          "16": "images/icons8-edit-16.png",
+          "32": "images/icons8-edit-32.png",
+          "48": "images/icons8-edit-48.png",
+          "128": "images/icons8-edit-128.png"
+      },
+
+      "options_page": "options.html",
+      "manifest_version": 2
+  }
